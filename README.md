@@ -1,1 +1,1 @@
-GitHub notify test
+GitHub notify test 2
