@@ -1,0 +1,9 @@
+package com.bogotobogo;
+
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+public class TestBalance {
+
+}
