@@ -1,8 +1,8 @@
-public class Balance {
+public class Account {
 
   private double balance;
 
-  public Balance(double balance) {
+  public Account(double balance) {
     this.balance = balance;
   }
 
