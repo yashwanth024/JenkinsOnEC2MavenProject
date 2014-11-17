@@ -1,7 +1,7 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.bogotobogo</groupId>
-  <artifactId>bogotobogo_JenkinsOnEC2</artifactId>
+  <groupId>ca.uwo.csd.cs2212.USERNAME</groupId>
+  <artifactId>USERNAME-lab5</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 
@@ -19,28 +19,3 @@
   </dependencies>
 
 </project>
-
-<build>
-  <plugins>
-    <plugin>
-      <groupId>org.jacoco</groupId>
-      <artifactId>jacoco-maven-plugin</artifactId>
-      <version>0.6.4.201312101107</version>
-      <executions>
-        <execution>
-          <id>pre-unit-test</id>
-          <goals>
-            <goal>prepare-agent</goal>
-          </goals>
-        </execution>
-        <execution>
-          <id>post-unit-test</id>
-          <phase>test</phase>
-          <goals>
-            <goal>report</goal>
-          </goals>
-        </execution>
-      </executions>
-    </plugin>
-  </plugins>
-</build>
