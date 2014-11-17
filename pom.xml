@@ -1,7 +1,7 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>ca.uwo.csd.cs2212.USERNAME</groupId>
-  <artifactId>USERNAME-lab5</artifactId>
+  <groupId>com.bogotobogo</groupId>
+  <artifactId>JankinsOnEC2Maven</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 
@@ -18,9 +18,7 @@
     </dependency>
   </dependencies>
 
-</project>
-
-<build>
+ <build>
   <plugins>
     <plugin>
       <groupId>org.jacoco</groupId>
@@ -43,4 +41,5 @@
       </executions>
     </plugin>
   </plugins>
-</build>
+ </build>
+</project>
