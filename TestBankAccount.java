@@ -1,4 +1,4 @@
-package bogotobogo.com;
+package com.bogotobogo;
 
 import junit.framework.Assert;
 import org.junit.Before;
